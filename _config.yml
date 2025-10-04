@@ -1,0 +1,25 @@
+﻿title: Seyed Mahmood Shantiaeezade
+author: Seyed Mahmood Shantiaeezade
+description: Personal website
+theme: minima
+
+url: ""      # leave empty for personal site
+baseurl: ""  # leave empty for personal site
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Navigation menu (top right)
+header_pages:
+  - index.md
+  - about.md
+  - projects.md
+  - publications.md
+
+# Minima theme customizations
+minima:
+  social_links:    # you can keep this or delete if you only want footer links
+    linkedin: https://www.linkedin.com/in/your-linkedin-handle/
+    google_scholar: https://scholar.google.com/citations?user=your-scholar-id

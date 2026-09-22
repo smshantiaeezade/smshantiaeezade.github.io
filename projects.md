@@ -137,7 +137,58 @@ permalink: /projects/
 
 </section>
 
+<section class="selected-robotics-project">
 
+  <div class="selected-robotics-heading">
+
+    <p class="eyebrow">Selected Robotics Project</p>
+
+    <h2>Robot programming & experimental implementation</h2>
+
+  </div>
+
+
+  <a class="project-index-card project-index-card-secondary"
+     href="{{ '/projects/armpi-robotic-writing/' | relative_url }}">
+
+  <div class="project-index-image project-index-image-photo project-index-image-armpi">
+
+  <img
+    src="{{ '/assets/images/projects/armpi-writing/armpi-writing-preview.png' | relative_url }}"
+    alt="ArmPi robot with a marker mounted for robotic writing">
+
+</div>
+
+
+    <div class="project-index-content">
+
+      <p class="project-index-kicker">
+        Course Project · Robotics · Trajectory Generation · Raspberry Pi
+      </p>
+
+      <div class="project-index-title">
+
+        <h2>
+          ArmPi Robotic Writing:
+          Trajectory Generation & Experimental Implementation
+        </h2>
+
+        <span aria-hidden="true">→</span>
+
+      </div>
+
+      <p class="project-index-summary">
+        Implemented a robotic writing system using Raspberry Pi, Python, and MATLAB.
+        Generated letter trajectories, tuned the writing height experimentally, and
+        executed pen-up/pen-down waypoint sequences while addressing marker stability
+        and vibration during physical writing.
+      </p>
+
+    </div>
+
+  </a>
+
+</section>
 
 
 

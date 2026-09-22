@@ -10,49 +10,52 @@ permalink: /publications/
        INTRODUCTION
        ===================================================== -->
 
-  <section class="publications-hero">
+<header class="page-intro publications-intro">
 
-    <h1>Publications</h1>
+  <p class="eyebrow">Publications</p>
 
-    <p class="publications-lead">
-      Peer-reviewed journal and conference publications in machining dynamics,
-      adaptive manufacturing, precision mechatronics, and control systems.
-    </p>
+  <h1>
+    Peer-reviewed research & proceedings
+  </h1>
 
-  </section>
+  <p class="page-lead">
+    Publications in machining dynamics, adaptive manufacturing, precision mechatronics, and control systems. Formal author-name spellings are preserved in each citation.
+  </p>
+
+</header>
 
 
   <!-- =====================================================
        PUBLISHED WORK
        ===================================================== -->
 
-  <section class="publications-section">
+<section class="publications-section publications-main-section">
 
-    <h2>Published Work</h2>
+  <div class="publications-section-heading">
+    <h2>Published work</h2>
+  </div>
 
 
-    <!-- CIRP ANNALS -->
+  <div class="publication-list">
 
-    <a
-      class="publication-card publication-card-link"
-      href="https://doi.org/10.1016/j.cirp.2025.04.057"
-      target="_blank"
-      rel="noopener noreferrer">
 
-      <div class="publication-side">
+    <!-- CIRP -->
 
+    <article class="publication-row">
+
+      <div class="publication-index">
         <span class="publication-year">2025</span>
-
-        <span class="publication-type">
-          Journal Article
-        </span>
-
+        <span class="publication-type">Journal</span>
       </div>
 
       <div class="publication-content">
 
         <h3>
-          Low frequency feed modulation assisted milling for chatter avoidance
+          <a href="https://doi.org/10.1016/j.cirp.2025.04.057"
+             target="_blank"
+             rel="noopener noreferrer">
+            Low frequency feed modulation assisted milling for chatter avoidance ↗
+          </a>
         </h3>
 
         <p class="publication-authors">
@@ -65,41 +68,45 @@ permalink: /publications/
 
         <p class="publication-venue">
           <strong>CIRP Annals</strong>,
-          Vol. 74, Issue 1, pp. 535–539, 2025
+          Vol. 74, Issue 1, pp. 535–539, 2025.
         </p>
 
-        <span class="publication-action">
-          DOI / Publication ↗
-        </span>
+        <div class="publication-links">
+
+          <a href="https://doi.org/10.1016/j.cirp.2025.04.057"
+             target="_blank"
+             rel="noopener noreferrer">
+            DOI
+          </a>
+
+          <a href="{{ '/projects/feed-modulated-milling/' | relative_url }}">
+            Project
+          </a>
+
+        </div>
 
       </div>
 
-    </a>
+    </article>
 
 
+    <!-- MM SCIENCE -->
 
-    <!-- MM SCIENCE JOURNAL -->
+    <article class="publication-row">
 
-    <a
-      class="publication-card publication-card-link"
-      href="https://doi.org/10.17973/MMSJ.2025_12_2025157"
-      target="_blank"
-      rel="noopener noreferrer">
-
-      <div class="publication-side">
-
+      <div class="publication-index">
         <span class="publication-year">2025</span>
-
-        <span class="publication-type">
-          Journal Article
-        </span>
-
+        <span class="publication-type">Journal</span>
       </div>
 
       <div class="publication-content">
 
         <h3>
-          Adaptive Tool Eccentricity Compensation Using Machine Tool Feed Drives
+          <a href="https://doi.org/10.17973/MMSJ.2025_12_2025157"
+             target="_blank"
+             rel="noopener noreferrer">
+            Adaptive Tool Eccentricity Compensation Using Machine Tool Feed Drives ↗
+          </a>
         </h3>
 
         <p class="publication-authors">
@@ -114,42 +121,41 @@ permalink: /publications/
         <p class="publication-venue">
           <strong>MM Science Journal</strong>,
           Special Issue — 18th International Conference on High Speed Machining,
-          December 2025
+          December 2025.
         </p>
 
-        <span class="publication-action">
-          DOI / Publication ↗
-        </span>
+        <div class="publication-links">
+
+          <a href="https://doi.org/10.17973/MMSJ.2025_12_2025157"
+             target="_blank"
+             rel="noopener noreferrer">
+            DOI
+          </a>
+
+        </div>
 
       </div>
 
-    </a>
+    </article>
 
 
+    <!-- ASPE -->
 
-    <!-- ASPE 2025 -->
+    <article class="publication-row">
 
-    <a
-      class="publication-card publication-card-link"
-      href="https://www.scopus.com/pages/publications/105031776907"
-      target="_blank"
-      rel="noopener noreferrer">
-
-      <div class="publication-side">
-
+      <div class="publication-index">
         <span class="publication-year">2025</span>
-
-        <span class="publication-type">
-          Conference Paper
-        </span>
-
+        <span class="publication-type">Conference</span>
       </div>
 
       <div class="publication-content">
 
         <h3>
-          Low Frequency Feed Modulation for Tool Eccentricity Cancellation
-          and Chatter Avoidance in Milling
+          <a href="https://www.scopus.com/pages/publications/105031776907"
+             target="_blank"
+             rel="noopener noreferrer">
+            Low Frequency Feed Modulation for Tool Eccentricity Cancellation and Chatter Avoidance in Milling ↗
+          </a>
         </h3>
 
         <p class="publication-authors">
@@ -161,42 +167,45 @@ permalink: /publications/
 
         <p class="publication-venue">
           <strong>40th Annual Meeting of the American Society for Precision Engineering (ASPE)</strong>,
-          2025
+          2025.
         </p>
 
-        <span class="publication-action">
-          View in Scopus ↗
-        </span>
+        <div class="publication-links">
+
+          <a href="https://www.scopus.com/pages/publications/105031776907"
+             target="_blank"
+             rel="noopener noreferrer">
+            Scopus
+          </a>
+
+          <a href="{{ '/projects/feed-modulated-milling/' | relative_url }}">
+            Project
+          </a>
+
+        </div>
 
       </div>
 
-    </a>
+    </article>
 
 
+    <!-- IEEE VCA -->
 
-    <!-- IEEE ICROM -->
+    <article class="publication-row">
 
-    <a
-      class="publication-card publication-card-link"
-      href="https://doi.org/10.1109/ICRoM57054.2022.10025221"
-      target="_blank"
-      rel="noopener noreferrer">
-
-      <div class="publication-side">
-
+      <div class="publication-index">
         <span class="publication-year">2022</span>
-
-        <span class="publication-type">
-          Conference Paper
-        </span>
-
+        <span class="publication-type">Conference</span>
       </div>
 
       <div class="publication-content">
 
         <h3>
-          Optimal Design and Control of a Planar Voice-Coil Actuator
-          for Micropositioning Applications
+          <a href="https://doi.org/10.1109/ICRoM57054.2022.10025221"
+             target="_blank"
+             rel="noopener noreferrer">
+            Optimal Design and Control of a Planar Voice-Coil Actuator for Micropositioning Applications ↗
+          </a>
         </h3>
 
         <p class="publication-authors">
@@ -209,18 +218,30 @@ permalink: /publications/
 
         <p class="publication-venue">
           <strong>2022 10th RSI International Conference on Robotics and Mechatronics (ICRoM)</strong>,
-          IEEE, pp. 439–444
+          IEEE, pp. 439–444.
         </p>
 
-        <span class="publication-action">
-          IEEE / DOI ↗
-        </span>
+        <div class="publication-links">
+
+          <a href="https://doi.org/10.1109/ICRoM57054.2022.10025221"
+             target="_blank"
+             rel="noopener noreferrer">
+            IEEE / DOI
+          </a>
+
+          <a href="{{ '/projects/voice-coil-actuator/' | relative_url }}">
+            Project
+          </a>
+
+        </div>
 
       </div>
 
-    </a>
+    </article>
 
-  </section>
+  </div>
+
+</section>
 
 
 </div>

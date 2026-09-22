@@ -1,25 +1,35 @@
 ﻿title: Seyed Mahmood Shantiaeezade
 author: Seyed Mahmood Shantiaeezade
-description: Personal website
+
+description: >-
+  Ph.D. student in Mechatronics, Robotics, and Automation Engineering at Oregon State University working on precision mechatronics, control systems, system identification, machining dynamics, and advanced manufacturing.
+
 theme: minima
 
-url: ""      # leave empty for personal site
-baseurl: ""  # leave empty for personal site
+url: "https://smshantiaeezade.github.io"
+baseurl: ""
+lang: en-US
 
-# Plugins
+email: "shantias@oregonstate.edu"
+
+linkedin_url: "https://www.linkedin.com/in/s-m-shantiaee"
+google_scholar_url: "https://scholar.google.com/citations?user=dtYC4jUAAAAJ&hl=en&oi=ao"
+
+# Uncomment this later when you have a public CV file.
+# cv_url: "/assets/files/cv.pdf"
+
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-sitemap
 
-# Navigation menu (top right)
 header_pages:
   - index.md
-  - about.md
   - projects.md
   - publications.md
+  - about.md
 
-# Minima theme customizations
 minima:
-  social_links:    # you can keep this or delete if you only want footer links
-    linkedin: www.linkedin.com/in/s-m-shantiaee
-    google_scholar: https://scholar.google.com/citations?user=dtYC4jUAAAAJ&hl=en&oi=ao
+  social_links:
+    linkedin: "https://www.linkedin.com/in/s-m-shantiaee"
+    google_scholar: "https://scholar.google.com/citations?user=dtYC4jUAAAAJ&hl=en&oi=ao"

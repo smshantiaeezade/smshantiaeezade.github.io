@@ -1,0 +1,46 @@
+<header class="site-header" role="banner">
+
+  <div class="wrapper site-header-inner">
+
+    <a class="site-title"
+       rel="author"
+       href="{{ '/' | relative_url }}">
+      {{ site.title | escape }}
+    </a>
+
+    <nav class="site-nav" aria-label="Primary navigation">
+
+      <a class="page-link{% if page.url == '/' %} is-active{% endif %}"
+         href="{{ '/' | relative_url }}">
+        Home
+      </a>
+
+      <a class="page-link{% if page.url contains '/projects/' %} is-active{% endif %}"
+         href="{{ '/projects/' | relative_url }}">
+        Projects
+      </a>
+
+      <a class="page-link{% if page.url contains '/publications/' %} is-active{% endif %}"
+         href="{{ '/publications/' | relative_url }}">
+        Publications
+      </a>
+
+      <a class="page-link{% if page.url contains '/about/' %} is-active{% endif %}"
+         href="{{ '/about/' | relative_url }}">
+        About
+      </a>
+
+      {% if site.cv_url %}
+        <a class="page-link"
+           href="{{ site.cv_url | relative_url }}"
+           target="_blank"
+           rel="noopener noreferrer">
+          CV
+        </a>
+      {% endif %}
+
+    </nav>
+
+  </div>
+
+</header>

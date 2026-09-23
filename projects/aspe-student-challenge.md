@@ -32,13 +32,7 @@ permalink: /projects/aspe-student-challenge/
     </div>
   </div>
 
-
-  <div class="aspe-main-grid">
-
-    <!-- LEFT SIDE -->
-    <div class="aspe-text-column">
-
-      <section class="aspe-overview-text">
+  <section class="aspe-overview-text aspe-overview-lead">
 
   <h4>The Challenge</h4>
 
@@ -53,7 +47,37 @@ permalink: /projects/aspe-student-challenge/
 </section>
 
 
-      <section class="aspe-role">
+<figure class="aspe-media-item">
+
+        <video
+        class="project-video"
+        controls
+        preload="metadata"
+        onloadedmetadata="this.volume=0.4">
+
+          <source
+            src="/assets/videos/projects/aspe-student-challenge/aspe-demo.mp4"
+            type="video/mp4">
+
+          Your browser does not support the video tag.
+
+        </video>
+
+        <figcaption>
+          Team OSU's record-manufacturing system during experimental testing and the ASPE competition.
+        </figcaption>
+
+      </figure>
+
+
+  <div class="aspe-main-grid">
+
+    <!-- LEFT SIDE -->
+    <div class="aspe-text-column">
+
+
+
+  <section class="aspe-role">
 
   <h4>My Role & Engineering Impact</h4>
 
@@ -83,28 +107,6 @@ permalink: /projects/aspe-student-challenge/
 
     <!-- RIGHT SIDE: ALL MEDIA -->
     <div class="aspe-media-column">
-
-      <figure class="aspe-media-item">
-
-        <video
-        class="project-video"
-        controls
-        preload="metadata"
-        onloadedmetadata="this.volume=0.4">
-
-          <source
-            src="/assets/videos/projects/aspe-student-challenge/aspe-demo.mp4"
-            type="video/mp4">
-
-          Your browser does not support the video tag.
-
-        </video>
-
-        <figcaption>
-          Team OSU's record-manufacturing system during experimental testing and the ASPE competition.
-        </figcaption>
-
-      </figure>
 
 
       <figure class="aspe-media-item">

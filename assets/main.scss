@@ -6146,3 +6146,296 @@ a:hover {
   }
 
 }
+
+
+/* =========================================================
+   FMM — lead working-principle animation
+   ========================================================= */
+
+.fmm-lead-section {
+  margin: 34px 0 46px;
+
+  padding-bottom: 38px;
+
+  border-bottom: 1px solid var(--border);
+}
+
+.fmm-lead-title {
+  margin: 0 0 16px;
+
+  color: var(--text-primary);
+
+  font-size: 1.08rem;
+  font-weight: 700;
+}
+
+.fmm-lead-media {
+  width: 100%;
+  max-width: 920px;   /* was 1080px */
+  margin: 0 auto;
+}
+
+.fmm-lead-media .fmm-animation {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: 620px;  /* optional extra cap */
+  margin: 0 auto;
+  background: #ffffff;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  box-shadow: none;
+}
+
+.fmm-lead-media figcaption {
+  max-width: 900px;
+
+  margin: 12px auto 0;
+
+  color: var(--text-muted);
+
+  font-size: 0.82rem;
+  line-height: 1.5;
+
+  text-align: center;
+}
+
+
+/* Slight separation between the lead animation
+   and the two-column technical content below */
+
+.fmm-lead-section + .fmm-main-grid {
+  margin-top: 0;
+}
+
+
+@media (max-width: 760px) {
+
+  .fmm-lead-section {
+    margin-top: 28px;
+    margin-bottom: 36px;
+
+    padding-bottom: 30px;
+  }
+
+  .fmm-lead-media {
+    max-width: 100%;
+  }
+
+  .fmm-lead-media figcaption {
+    font-size: 0.78rem;
+  }
+
+}
+
+
+
+/* =========================================================
+   ASPE — full-width introduction and lead media
+   ========================================================= */
+
+.aspe-overview-lead {
+  max-width: 780px;
+
+  margin-top: 38px;
+  margin-bottom: 30px;
+}
+
+.aspe-overview-lead h4 {
+  margin: 0 0 16px;
+}
+
+.aspe-overview-lead p {
+  margin-bottom: 18px;
+
+  line-height: 1.7;
+}
+
+.aspe-overview-lead p:last-child {
+  margin-bottom: 0;
+}
+
+
+.aspe-lead-section {
+  margin: 28px 0 46px;
+
+  padding-bottom: 38px;
+
+  border-bottom: 1px solid var(--border);
+}
+
+.aspe-lead-title {
+  margin: 0 0 14px;
+
+  color: var(--text-primary);
+
+  font-size: 1.08rem;
+  font-weight: 700;
+}
+
+.aspe-lead-media {
+  width: 100%;
+  max-width: 880px;
+
+  margin: 0 auto;
+}
+
+.aspe-lead-media .project-video {
+  display: block;
+
+  width: 100%;
+  height: auto;
+
+  aspect-ratio: 16 / 9;
+
+  object-fit: contain;
+
+  margin: 0 auto;
+
+  background: #000000;
+
+  border: 1px solid var(--border);
+  border-radius: 8px;
+
+  box-shadow: none;
+}
+
+.aspe-lead-media figcaption {
+  max-width: 800px;
+
+  margin: 12px auto 0;
+
+  color: var(--text-muted);
+
+  font-size: 0.82rem;
+  line-height: 1.5;
+
+  text-align: center;
+}
+
+
+@media (max-width: 760px) {
+
+  .aspe-overview-lead {
+    max-width: 100%;
+  }
+
+  .aspe-lead-section {
+    margin-bottom: 36px;
+
+    padding-bottom: 30px;
+  }
+
+}
+
+
+
+
+
+
+
+/* =========================================================
+   VCA — full-width introduction and lead media
+   ========================================================= */
+
+.vca-overview-lead {
+  max-width: 780px;
+
+  margin-top: 38px;
+  margin-bottom: 30px;
+}
+
+.vca-overview-lead h4 {
+  margin: 0 0 16px;
+}
+
+.vca-overview-lead p {
+  margin-bottom: 18px;
+
+  line-height: 1.7;
+}
+
+.vca-overview-lead p:last-child {
+  margin-bottom: 0;
+}
+
+
+.vca-lead-section {
+  margin: 28px 0 46px;
+
+  padding-bottom: 38px;
+
+  border-bottom: 1px solid var(--border);
+}
+
+.vca-lead-title {
+  margin: 0 0 14px;
+
+  color: var(--text-primary);
+
+  font-size: 1.08rem;
+  font-weight: 700;
+}
+
+.vca-lead-media {
+  width: 100%;
+  max-width: 820px;
+
+  margin: 0 auto;
+}
+
+.vca-lead-media a {
+  display: block;
+}
+
+.vca-lead-media img {
+  display: block;
+
+  width: 100%;
+  height: auto;
+
+  max-height: 520px;
+
+  object-fit: contain;
+
+  margin: 0 auto;
+
+  background: #ffffff;
+
+  border: 1px solid var(--border);
+  border-radius: 8px;
+
+  box-shadow: none;
+}
+
+.vca-lead-media figcaption {
+  max-width: 760px;
+
+  margin: 12px auto 0;
+
+  color: var(--text-muted);
+
+  font-size: 0.82rem;
+  line-height: 1.5;
+
+  text-align: center;
+}
+
+
+@media (max-width: 760px) {
+
+  .vca-overview-lead {
+    max-width: 100%;
+  }
+
+  .vca-lead-section {
+    margin-bottom: 36px;
+
+    padding-bottom: 30px;
+  }
+
+  .vca-lead-media img {
+    max-height: none;
+  }
+
+}

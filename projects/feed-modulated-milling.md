@@ -36,16 +36,7 @@ permalink: /projects/feed-modulated-milling/
 
   </div>
 
-
-  <div class="fmm-main-grid">
-
-    <!-- =====================================================
-         LEFT COLUMN
-         ===================================================== -->
-
-    <div class="fmm-text-column">
-
-      <section class="fmm-overview">
+   <section class="fmm-overview">
 
   <h4>The Challenge & Approach</h4>
 
@@ -63,6 +54,51 @@ permalink: /projects/feed-modulated-milling/
 
 </section>
 
+<!-- =====================================================
+     LEAD MEDIA — FMM WORKING PRINCIPLE
+     ===================================================== -->
+
+<section class="fmm-lead-section">
+
+  <h4 class="fmm-lead-title">Working Principle</h4>
+
+  <figure class="fmm-media-item fmm-lead-media">
+
+    <video
+      class="fmm-animation fmm-animation-lead"
+      autoplay
+      loop
+      muted
+      playsinline
+      controls
+      preload="metadata">
+
+      <source
+        src="/assets/videos/projects/feed-modulated-milling/fmm-principle.mp4"
+        type="video/mp4">
+
+      Your browser does not support the video tag.
+
+    </video>
+
+    <figcaption>
+      Feed Modulated Milling working principle. The animation shows the
+      spindle-synchronized circular tool-center motion together with the total
+      chip thickness, feed-modulation chip-thickness contribution, and X/Y
+      tool-center modulation.
+    </figcaption>
+
+  </figure>
+
+</section>
+
+  <div class="fmm-main-grid">
+
+    <!-- =====================================================
+         LEFT COLUMN
+         ===================================================== -->
+
+  <div class="fmm-text-column">
 
      <section class="fmm-role">
 
@@ -115,33 +151,6 @@ permalink: /projects/feed-modulated-milling/
          ===================================================== -->
 
     <div class="fmm-media-column">
-
-
-      <!-- Working principle animation -->
-
-      <figure class="fmm-media-item">
-
-        <video
-          class="fmm-animation"
-          autoplay
-          loop
-          muted
-          playsinline
-          preload="metadata">
-
-          <source
-            src="/assets/videos/projects/feed-modulated-milling/fmm-principle.mp4"
-            type="video/mp4">
-
-          Your browser does not support the video tag.
-
-        </video>
-
-        <figcaption>
-          Working principle of Feed Modulated Milling. Small circular feed motions redistribute chip thickness and change cutting-edge engagement.
-        </figcaption>
-
-      </figure>
 
 
       <!-- CIRP published result -->

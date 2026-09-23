@@ -39,6 +39,47 @@ permalink: /projects/voice-coil-actuator/
 
 </div>
 
+<section class="vca-overview">
+
+  <h4>The Challenge & Approach</h4>
+
+  <p>
+    Precision positioning requires accurate motion despite sensor limitations, actuator dynamics, and nonlinear effects such as friction. This project focused on a planar voice-coil actuator (VCA), a direct-drive linear actuator suited to compact precision-motion applications.
+  </p>
+
+  <p>
+    An experimental control platform was developed around the existing actuator by integrating position sensing, embedded control hardware, and a servo amplifier. The actuator dynamics were characterized experimentally, a dynamic model was identified, and a digital feedback controller was developed for precision positioning.
+  </p>
+
+  <p>
+    The platform was later extended to a microliter syringe application, where the added mechanism introduced significant nonlinear friction. This motivated experimental friction characterization and development of a nonlinear friction model to better reproduce the physical system behavior.
+  </p>
+
+</section>
+
+
+
+      <!-- Physical setup -->
+
+      <figure class="vca-media-item vca-setup-media">
+
+        <a
+          href="/assets/images/projects/voice-coil-actuator/vca-setup.png"
+          target="_blank"
+          rel="noopener noreferrer">
+
+          <img
+            src="/assets/images/projects/voice-coil-actuator/vca-setup.png"
+            alt="Planar voice-coil actuator experimental setup">
+
+        </a>
+
+        <figcaption>
+          Planar voice-coil actuator experimental platform used for positioning and control experiments. Click to enlarge.
+        </figcaption>
+
+      </figure>
+
 
   <!-- =====================================================
        MAIN TWO-COLUMN SECTION
@@ -50,24 +91,6 @@ permalink: /projects/voice-coil-actuator/
     <!-- ================= LEFT COLUMN ================= -->
 
     <div class="vca-text-column">
-
-      <section class="vca-overview">
-
-        <h4>The Challenge & Approach</h4>
-
-        <p>
-          Precision positioning requires accurate motion despite sensor limitations, actuator dynamics, and nonlinear effects such as friction. This project focused on a planar voice-coil actuator (VCA), a direct-drive linear actuator suited to compact precision-motion applications.
-        </p>
-
-        <p>
-          An experimental control platform was developed around the existing actuator by integrating position sensing, embedded control hardware, and a servo amplifier. The actuator dynamics were characterized experimentally, a dynamic model was identified, and a digital feedback controller was developed for precision positioning.
-        </p>
-
-        <p>
-          The platform was later extended to a microliter syringe application, where the added mechanism introduced significant nonlinear friction. This motivated experimental friction characterization and development of a nonlinear friction model to better reproduce the physical system behavior.
-        </p>
-
-      </section>
 
 
       <!-- =====================================================
@@ -155,26 +178,6 @@ permalink: /projects/voice-coil-actuator/
       </figure>
 
 
-      <!-- Physical setup -->
-
-      <figure class="vca-media-item vca-setup-media">
-
-        <a
-          href="/assets/images/projects/voice-coil-actuator/vca-setup.png"
-          target="_blank"
-          rel="noopener noreferrer">
-
-          <img
-            src="/assets/images/projects/voice-coil-actuator/vca-setup.png"
-            alt="Planar voice-coil actuator experimental setup">
-
-        </a>
-
-        <figcaption>
-          Planar voice-coil actuator experimental platform used for positioning and control experiments. Click to enlarge.
-        </figcaption>
-
-      </figure>
 
 
       <!-- Control validation -->

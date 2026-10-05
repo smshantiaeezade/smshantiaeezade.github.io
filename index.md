@@ -32,7 +32,7 @@ image: /assets/images/profile.jpeg
     </p>
 
     <p class="home-hero-context">
-      Ph.D. student and Graduate Research Assistant in the Manufacturing Process Control Laboratory at Oregon State University, with work spanning precision motion, machining dynamics, vibration control, and experimental mechatronics.
+      Ph.D. student and Graduate Research Assistant in the Precision Manufacturing & Automation Laboratory at Oregon State University, with work spanning precision motion, machining dynamics, vibration control, and experimental mechatronics.
     </p>
       <div class="hero-actions">
 
@@ -101,13 +101,24 @@ image: /assets/images/profile.jpeg
 
       <article class="work-preview">
 
-        <a class="work-preview-media work-preview-media-technical"
-           href="{{ '/projects/feed-modulated-milling/' | relative_url }}">
+        <a class="work-preview-media work-preview-media-video work-preview-media-video--technical"
+          href="{{ '/projects/feed-modulated-milling/' | relative_url }}"
+          aria-label="View Feed Modulated Milling project">
 
-          <img
-            src="{{ '/assets/images/projects/feed-modulated-milling/fmm-cirp-stability.png' | relative_url }}"
-            alt="Feed Modulated Milling chatter-stability results"
-            loading="lazy">
+          <video
+            autoplay
+            loop
+            muted
+            playsinline
+            preload="metadata"
+            aria-hidden="true"
+            tabindex="-1">
+
+            <source
+              src="{{ '/assets/videos/projects/feed-modulated-milling/fmm-principle.mp4' | relative_url }}"
+              type="video/mp4">
+
+          </video>
 
         </a>
 
@@ -180,13 +191,24 @@ image: /assets/images/profile.jpeg
 
       <article class="work-preview">
 
-        <a class="work-preview-media work-preview-media-photo"
-           href="{{ '/projects/voice-coil-actuator/' | relative_url }}">
+        <a class="work-preview-media work-preview-media-video"
+          href="{{ '/projects/voice-coil-actuator/' | relative_url }}"
+          aria-label="View Planar Voice-Coil Actuator project">
 
-          <img
-            src="{{ '/assets/images/projects/voice-coil-actuator/vca-setup.png' | relative_url }}"
-            alt="Planar voice-coil actuator experimental setup"
-            loading="lazy">
+          <video
+            autoplay
+            loop
+            muted
+            playsinline
+            preload="metadata"
+            aria-hidden="true"
+            tabindex="-1">
+
+            <source
+              src="{{ '/assets/videos/projects/voice-coil-actuator/VCA_50ums_with_plot.mp4' | relative_url }}"
+              type="video/mp4">
+
+          </video>
 
         </a>
 
@@ -284,7 +306,7 @@ image: /assets/images/profile.jpeg
 
       <div>
         <p class="eyebrow">Highlights</p>
-        <h2 id="evidence-title">Publications & awards</h2>
+        <h2 id="evidence-title">Publications & Awards</h2>
       </div>
 
     </div>
@@ -367,7 +389,7 @@ image: /assets/images/profile.jpeg
 
       <div>
         <p class="eyebrow">Background</p>
-        <h2 id="background-title">Education & current role</h2>
+        <h2 id="background-title">Education & Current Role</h2>
       </div>
 
     </div>
@@ -471,7 +493,7 @@ image: /assets/images/profile.jpeg
         <h3>Graduate Research Assistant</h3>
 
         <p class="current-role-org">
-          Manufacturing Process Control Laboratory · Oregon State University
+          Precision Manufacturing & Automation Laboratory · Oregon State University
         </p>
 
         <p>

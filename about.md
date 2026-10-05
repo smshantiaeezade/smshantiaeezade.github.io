@@ -15,7 +15,7 @@ permalink: /about/
   </h1>
 
   <p class="page-lead">
-    I am a Ph.D. student in Mechatronics, Robotics, and Automation Engineering at Oregon State University and a graduate research assistant in the Manufacturing Process Control Laboratory.
+    I am a Ph.D. student in Mechatronics, Robotics, and Automation Engineering at Oregon State University and a graduate research assistant in the Precision Manufacturing & Automation Laboratory.
   </p>
 
   <p>

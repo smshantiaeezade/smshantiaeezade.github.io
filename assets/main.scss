@@ -5037,6 +5037,37 @@ a:hover {
   object-fit: contain;
 }
 
+
+/* ---------- Video previews ---------- */
+
+.project-index-video-preview {
+  padding: 0;
+
+  background: #ffffff;
+}
+
+.project-index-video-preview video {
+  display: block;
+
+  width: 100%;
+  height: 100%;
+
+  object-fit: contain;
+
+  background: #ffffff;
+
+  pointer-events: none;
+
+  transition: transform 200ms ease;
+}
+
+
+/* Give technical animations a little breathing room */
+
+.project-index-video-preview--technical {
+  padding: 8px;
+}
+
 .project-index-image-armpi {
   padding: 0;
 
@@ -5058,10 +5089,10 @@ a:hover {
 
 /* Very slight hover only */
 
-.project-index-card:hover .project-index-image img {
+.project-index-card:hover .project-index-image img,
+.project-index-card:hover .project-index-image video {
   transform: scale(1.01);
 }
-
 
 /* ---------- Text ---------- */
 
@@ -5357,6 +5388,35 @@ a:hover {
 
 .work-preview-media-technical img {
   object-fit: contain;
+}
+
+
+/* Homepage project-video treatment */
+
+.work-preview-media-video {
+  padding: 0;
+
+  background: #ffffff;
+}
+
+.work-preview-media-video video {
+  display: block;
+
+  width: 100%;
+  height: 100%;
+
+  object-fit: contain;
+
+  background: #ffffff;
+
+  pointer-events: none;
+}
+
+
+/* FMM is a technical animation, so preserve a small margin */
+
+.work-preview-media-video--technical {
+  padding: 8px;
 }
 
 
@@ -6651,4 +6711,398 @@ a:hover {
     max-width: 100%;
   }
 
+}
+
+
+
+
+
+/* =========================================================
+   Botanist project
+   ========================================================= */
+
+.botanist-project-box,
+.botanist-metric-box {
+  background: #f3f4f4;
+
+  border: 1px solid #d6d9da;
+  border-left: 4px solid var(--accent);
+
+  border-radius: 5px;
+
+  box-shadow: none;
+}
+
+.botanist-project-box {
+  display: grid;
+
+  grid-template-columns: 135px minmax(0, 1fr);
+
+  width: min(100%, 760px);
+
+  margin: 28px 0 38px;
+}
+
+.botanist-project-label {
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  padding: 16px;
+
+  color: var(--accent);
+
+  font-size: 0.78rem;
+  font-weight: 750;
+
+  letter-spacing: 0.08em;
+}
+
+.botanist-project-box > div:last-child {
+  padding: 16px 18px;
+
+  line-height: 1.55;
+}
+
+
+.botanist-overview {
+  max-width: 780px;
+
+  margin-bottom: 30px;
+}
+
+.botanist-overview p,
+.botanist-section p {
+  line-height: 1.7;
+}
+
+
+.botanist-lead-media {
+  max-width: 900px;
+
+  margin: 30px auto 46px;
+}
+
+.botanist-lead-media img {
+  display: block;
+
+  width: 100%;
+  height: auto;
+
+  border: 1px solid var(--border);
+  border-radius: 8px;
+}
+
+.botanist-lead-media figcaption {
+  margin-top: 10px;
+
+  color: var(--text-muted);
+
+  font-size: 0.82rem;
+  line-height: 1.5;
+
+  text-align: center;
+}
+
+
+.botanist-section {
+  margin-top: 42px;
+
+  padding-top: 34px;
+
+  border-top: 1px solid var(--border);
+}
+
+
+.botanist-pipeline {
+  display: grid;
+
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+
+  gap: 12px;
+
+  margin-top: 24px;
+}
+
+.botanist-pipeline-step {
+  padding: 16px;
+
+  background: #f3f4f4;
+
+  border: 1px solid var(--border);
+  border-top: 3px solid var(--accent);
+
+  border-radius: 5px;
+}
+
+.botanist-pipeline-step span {
+  display: block;
+
+  margin-bottom: 8px;
+
+  color: var(--accent);
+
+  font-size: 0.72rem;
+  font-weight: 750;
+}
+
+.botanist-pipeline-step strong,
+.botanist-pipeline-step small {
+  display: block;
+}
+
+.botanist-pipeline-step small {
+  margin-top: 6px;
+
+  color: var(--text-muted);
+
+  line-height: 1.45;
+}
+
+
+.botanist-metric-box {
+  max-width: 760px;
+
+  margin: 22px 0 28px;
+
+  padding: 20px 22px;
+}
+
+.botanist-metric-label {
+  color: var(--accent);
+
+  font-size: 0.74rem;
+  font-weight: 750;
+
+  letter-spacing: 0.12em;
+
+  margin-bottom: 6px;
+}
+
+.botanist-metric-value {
+  color: var(--text-primary);
+
+  font-size: 2rem;
+  font-weight: 750;
+
+  margin-bottom: 8px;
+}
+
+
+.botanist-table-wrap {
+  overflow-x: auto;
+
+  margin: 26px 0;
+}
+
+.botanist-results-table {
+  width: 100%;
+  max-width: 780px;
+
+  border-collapse: collapse;
+
+  font-size: 0.92rem;
+}
+
+.botanist-results-table th,
+.botanist-results-table td {
+  padding: 11px 14px;
+
+  border-bottom: 1px solid var(--border);
+
+  text-align: left;
+}
+
+.botanist-results-table th {
+  color: var(--text-muted);
+
+  font-size: 0.78rem;
+  font-weight: 700;
+
+  text-transform: uppercase;
+}
+
+.botanist-best-row {
+  background: #f3f4f4;
+}
+
+
+.botanist-error-layout {
+  display: grid;
+
+  grid-template-columns: minmax(0, 0.9fr) minmax(360px, 1.1fr);
+
+  gap: 36px;
+
+  align-items: start;
+}
+
+
+@media (max-width: 900px) {
+
+  .botanist-pipeline {
+    grid-template-columns: 1fr;
+  }
+
+  .botanist-error-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .botanist-project-box {
+    grid-template-columns: 1fr;
+  }
+
+  .botanist-project-label {
+    justify-content: flex-start;
+  }
+
+}
+
+
+/* =========================================================
+   Botanist — confusion matrix
+   ========================================================= */
+
+.botanist-confusion-layout {
+  display: grid;
+
+  grid-template-columns:
+    minmax(0, 0.85fr)
+    minmax(420px, 1.15fr);
+
+  gap: 42px;
+
+  align-items: center;
+
+  margin-top: 24px;
+}
+
+.botanist-confusion-text p:first-child {
+  margin-top: 0;
+}
+
+.botanist-confusion-media {
+  width: 100%;
+  max-width: 620px;
+
+  margin: 0 auto;
+}
+
+.botanist-confusion-media img {
+  display: block;
+
+  width: 100%;
+  height: auto;
+
+  background: #ffffff;
+
+  border: 1px solid var(--border);
+  border-radius: 8px;
+
+  box-shadow: none;
+}
+
+.botanist-confusion-media figcaption {
+  margin-top: 10px;
+
+  color: var(--text-muted);
+
+  font-size: 0.82rem;
+  line-height: 1.5;
+
+  text-align: center;
+}
+
+
+@media (max-width: 900px) {
+
+  .botanist-confusion-layout {
+    grid-template-columns: 1fr;
+
+    gap: 24px;
+  }
+
+  .botanist-confusion-media {
+    max-width: 100%;
+  }
+
+}
+
+
+/* =========================================================
+   Botanist — diagnostic figures
+   ========================================================= */
+
+.botanist-diagnostics-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+
+  gap: 32px;
+
+  align-items: start;
+}
+
+.botanist-diagnostics-grid .project-media {
+  display: flex;
+  flex-direction: column;
+
+  margin: 0;
+}
+
+.botanist-diagnostics-grid .project-media > a {
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  width: 100%;
+  height: 380px;
+}
+
+.botanist-diagnostics-grid .project-media img {
+  display: block;
+
+  width: 100%;
+  height: 100%;
+
+  object-fit: contain;
+
+  background: #ffffff;
+
+  border: 1px solid var(--border);
+  border-radius: 8px;
+
+  box-shadow: none;
+}
+
+.botanist-diagnostics-grid .project-media figcaption {
+  margin-top: 12px;
+
+  text-align: center;
+}
+
+
+@media (max-width: 900px) {
+
+  .botanist-diagnostics-grid {
+    grid-template-columns: 1fr;
+
+    gap: 28px;
+  }
+
+  .botanist-diagnostics-grid .project-media > a {
+    height: auto;
+  }
+
+  .botanist-diagnostics-grid .project-media img {
+    width: 100%;
+    height: auto;
+  }
+
+}
+
+
+.selected-robotics-project .project-index-card + .project-index-card {
+  margin-top: 18px;
 }

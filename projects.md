@@ -8,7 +8,7 @@ permalink: /projects/
 
   <p class="eyebrow">Projects</p>
 
-  <h1>Research & engineering work</h1>
+  <h1>Research & Engineering Work</h1>
 
   <p>
     Selected projects spanning precision mechatronics, control systems,
@@ -25,11 +25,22 @@ permalink: /projects/
   <a class="project-index-card"
      href="{{ '/projects/feed-modulated-milling/' | relative_url }}">
 
-    <div class="project-index-image project-index-image-technical">
+    <div class="project-index-image project-index-video-preview project-index-video-preview--technical">
 
-      <img
-        src="{{ '/assets/images/projects/feed-modulated-milling/fmm-cirp-stability.png' | relative_url }}"
-        alt="Feed Modulated Milling chatter-stability results">
+      <video
+        autoplay
+        loop
+        muted
+        playsinline
+        preload="metadata"
+        aria-hidden="true"
+        tabindex="-1">
+
+        <source
+          src="{{ '/assets/videos/projects/feed-modulated-milling/fmm-principle.mp4' | relative_url }}"
+          type="video/mp4">
+
+      </video>
 
     </div>
 
@@ -110,11 +121,22 @@ permalink: /projects/
   <a class="project-index-card"
      href="{{ '/projects/voice-coil-actuator/' | relative_url }}">
 
-    <div class="project-index-image project-index-image-photo">
+    <div class="project-index-image project-index-video-preview">
 
-      <img
-        src="{{ '/assets/images/projects/voice-coil-actuator/vca-setup.png' | relative_url }}"
-        alt="Planar voice-coil actuator experimental setup">
+      <video
+        autoplay
+        loop
+        muted
+        playsinline
+        preload="metadata"
+        aria-hidden="true"
+        tabindex="-1">
+
+        <source
+          src="{{ '/assets/videos/projects/voice-coil-actuator/VCA_50ums_with_plot.mp4' | relative_url }}"
+          type="video/mp4">
+
+      </video>
 
     </div>
 
@@ -153,9 +175,9 @@ permalink: /projects/
 
   <div class="selected-robotics-heading">
 
-    <p class="eyebrow">Selected Robotics Project</p>
+    <p class="eyebrow">Selected Course Projects</p>
 
-    <h2>Robot programming & experimental implementation</h2>
+    <h2>Applied Robotics & Computer Vision</h2>
 
   </div>
 
@@ -196,9 +218,58 @@ permalink: /projects/
         and vibration during physical writing.
       </p>
 
+      <p class="project-index-evidence">
+        <strong>Result:</strong>
+        Successfully executed the generated waypoint trajectories to write “OSU” on paper.
+      </p>
+
     </div>
 
   </a>
+
+
+  <a class="project-index-card project-index-card-secondary"
+   href="{{ '/projects/botanist/' | relative_url }}">
+
+  <div class="project-index-image project-index-image-technical">
+
+    <img
+      src="{{ '/assets/images/projects/botanist/botanist-preview.png' | relative_url }}"
+      alt="Representative leaf images and model visualization from the Botanist classification project">
+
+  </div>
+
+
+  <div class="project-index-content">
+
+    <p class="project-index-kicker">
+      Course Project · Computer Vision · Deep Learning · PyTorch
+    </p>
+
+    <div class="project-index-title">
+
+      <h2>
+        Botanist: Leaf Disease Classification with Transfer Learning
+      </h2>
+
+      <span aria-hidden="true">→</span>
+
+    </div>
+
+    <p class="project-index-summary">
+      Developed a 38-class leaf-image classification pipeline using transfer-learned
+      ResNet50 and EfficientNet-B4 models, diagnostic error analysis,
+      probability-level ensembling, and multi-scale test-time augmentation.
+    </p>
+
+    <p class="project-index-evidence">
+      <strong>Result:</strong>
+      99.58% final test accuracy · 99.54% validation accuracy · 46 validation errors
+    </p>
+
+  </div>
+
+</a>
 
 </section>
 

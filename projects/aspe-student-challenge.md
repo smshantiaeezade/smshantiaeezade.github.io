@@ -17,7 +17,7 @@ permalink: /projects/aspe-student-challenge/
 
   <!--------- ASPE 2025 Student Challenge ---------------->
 
-  <h3>ASPE Student Challenge 2025: Musical Record Manufacturing</h3>
+  <h1>ASPE Student Challenge 2025: Musical Record Manufacturing</h1>
 
   <div class="project-meta">
     Precision Motion Control · System Identification · Experimental Mechatronics
@@ -47,27 +47,36 @@ permalink: /projects/aspe-student-challenge/
 </section>
 
 
-<figure class="aspe-media-item">
+<section class="aspe-lead-section">
 
-        <video
-        class="project-video"
-        controls
-        preload="metadata"
-        onloadedmetadata="this.volume=0.4">
+  <h4 class="aspe-lead-title">
+    Experimental System & Competition
+  </h4>
 
-          <source
-            src="/assets/videos/projects/aspe-student-challenge/aspe-demo.mp4"
-            type="video/mp4">
+  <figure class="aspe-media-item aspe-lead-media">
 
-          Your browser does not support the video tag.
+    <video
+      class="project-video"
+      controls
+      preload="metadata"
+      playsinline
+      onloadedmetadata="this.volume=0.4">
 
-        </video>
+      <source
+        src="/assets/videos/projects/aspe-student-challenge/aspe-demo.mp4"
+        type="video/mp4">
 
-        <figcaption>
-          Team OSU's record-manufacturing system during experimental testing and the ASPE competition.
-        </figcaption>
+      Your browser does not support the video tag.
 
-      </figure>
+    </video>
+
+    <figcaption>
+      Team OSU's record-manufacturing system during experimental testing and the ASPE competition.
+    </figcaption>
+
+  </figure>
+
+</section>
 
 
   <div class="aspe-main-grid">

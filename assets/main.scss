@@ -4946,7 +4946,7 @@ a:hover {
 
   grid-template-columns: minmax(300px, 36%) minmax(0, 1fr);
 
-  height: 220px;
+  height: auto;
   min-height: 220px;
 
   overflow: hidden;
@@ -4966,6 +4966,15 @@ a:hover {
     transform 160ms ease,
     border-color 160ms ease,
     box-shadow 160ms ease;
+}
+
+/* Featured research projects need room for quantitative results */
+.featured-project-index .project-index-card {
+  min-height: 260px;
+}
+
+.project-index-card-secondary {
+  min-height: 220px;
 }
 
 .project-index-card:hover {
@@ -6330,10 +6339,6 @@ a:hover {
 
 
 
-
-
-
-
 /* =========================================================
    VCA — full-width introduction and lead media
    ========================================================= */
@@ -6436,6 +6441,214 @@ a:hover {
 
   .vca-lead-media img {
     max-height: none;
+  }
+
+}
+
+
+
+.project-index-evidence {
+  margin: 11px 0 0;
+
+  color: var(--text-primary);
+
+  font-size: 0.82rem;
+  font-weight: 600;
+
+  line-height: 1.5;
+}
+
+.project-index-evidence strong {
+  color: var(--accent);
+
+  font-weight: 750;
+}
+
+
+
+.project-detail-title {
+  max-width: 900px;
+
+  margin: 0 0 10px;
+
+  color: var(--text-primary);
+
+  font-size: clamp(2rem, 3.6vw, 2.75rem);
+  font-weight: 680;
+
+  line-height: 1.12;
+
+  letter-spacing: -0.035em;
+}
+
+
+
+.fmm-overview-lead {
+  max-width: 780px;
+
+  margin-top: 38px;
+  margin-bottom: 30px;
+}
+
+.fmm-overview-lead p {
+  line-height: 1.7;
+}
+
+
+.project-media-grid--two {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 28px;
+  align-items: start;
+  margin-top: 1.25rem;
+}
+
+.project-media-grid--two .project-media {
+  margin: 0;
+}
+
+.project-media-grid--two .project-media img,
+.project-media-grid--two .project-media video {
+  display: block;
+  width: 100%;
+  max-height: 360px;
+  object-fit: contain;
+  background: #f7f7f8;
+  border-radius: 6px;
+}
+
+@media (max-width: 900px) {
+  .project-media-grid--two {
+    grid-template-columns: 1fr;
+  }
+
+  .project-media-grid--two .project-media img,
+  .project-media-grid--two .project-media video {
+    max-height: none;
+  }
+}
+
+
+
+/* =========================================================
+   VCA — experimental platform + constant-velocity media pair
+   Applies ONLY to the top side-by-side media row
+   ========================================================= */
+
+.vca-media-row {
+  display: flex;
+
+  align-items: flex-start;
+  justify-content: center;
+
+  gap: 1.5rem;
+
+  width: 100%;
+  max-width: 100%;
+
+  margin: 1.25rem 0 0;
+}
+
+
+/* Only the two figures inside the lead row */
+.vca-media-row > .vca-media-item {
+  flex: 0 0 auto;
+
+  width: auto;
+  max-width: none;
+
+  margin: 0;
+
+  background: transparent;
+}
+
+
+/* Link around the setup photograph */
+.vca-media-row > .vca-media-item > a {
+  display: block;
+
+  width: auto;
+}
+
+
+/* Same displayed height, natural widths */
+.vca-media-row > .vca-media-item img,
+.vca-media-row > .vca-media-item video {
+  display: block;
+
+  width: auto;
+  height: 295px;
+
+  max-width: none;
+
+  object-fit: contain;
+
+  background: transparent;
+
+  border: 1px solid var(--border);
+  border-radius: 8px;
+
+  box-shadow: none;
+}
+
+
+/* Captions stay underneath each item's own width */
+.vca-media-row > .vca-media-item figcaption {
+  max-width: 520px;
+
+  margin: 10px auto 0;
+
+  color: var(--text-muted);
+
+  font-size: 0.82rem;
+  line-height: 1.5;
+
+  text-align: center;
+}
+
+
+/* Explicitly preserve the original lower VCA media column */
+.vca-media-column > .vca-media-item {
+  width: 100%;
+  max-width: none;
+}
+
+.vca-media-column > .vca-media-item img,
+.vca-media-column > .vca-media-item video {
+  width: 100%;
+  height: auto;
+
+  max-width: 100%;
+}
+
+
+/* ---------- Responsive ---------- */
+
+@media (max-width: 900px) {
+
+  .vca-media-row {
+    flex-direction: column;
+
+    align-items: center;
+
+    gap: 1.5rem;
+  }
+
+  .vca-media-row > .vca-media-item {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .vca-media-row > .vca-media-item > a {
+    width: 100%;
+  }
+
+  .vca-media-row > .vca-media-item img,
+  .vca-media-row > .vca-media-item video {
+    width: 100%;
+    height: auto;
+
+    max-width: 100%;
   }
 
 }

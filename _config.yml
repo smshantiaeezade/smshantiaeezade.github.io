@@ -2,7 +2,10 @@
 author: Seyed Mahmood Shantiaeezade
 
 description: >-
-  Ph.D. student in Mechatronics, Robotics, and Automation Engineering at Oregon State University working on precision mechatronics, control systems, system identification, machining dynamics, and advanced manufacturing.
+  Ph.D. researcher in controls and dynamics at Oregon State University,
+  focused on system identification, precision mechatronics, modeling and
+  simulation, and experimental validation of electromechanical and
+  manufacturing systems.
 
 theme: minima
 
@@ -16,7 +19,7 @@ linkedin_url: "https://www.linkedin.com/in/s-m-shantiaee"
 google_scholar_url: "https://scholar.google.com/citations?user=dtYC4jUAAAAJ&hl=en&oi=ao"
 
 # Uncomment this later when you have a public CV file.
-# cv_url: "/assets/files/cv.pdf"
+cv_url: "/assets/files/CV_Shantiaeezade.pdf"
 
 plugins:
   - jekyll-feed

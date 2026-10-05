@@ -17,7 +17,7 @@ permalink: /projects/feed-modulated-milling/
 
 <!--------- Feed Modulated Milling ---------------->
 
-  <h3>Feed Modulated Milling (FMM)</h3>
+  <h1>Feed Modulated Milling (FMM)</h1>
 
   <div class="project-meta">
     M.Sc. Thesis Research · Machining Dynamics · Chatter Mitigation · Adaptive Control
@@ -36,7 +36,7 @@ permalink: /projects/feed-modulated-milling/
 
   </div>
 
-   <section class="fmm-overview">
+   <section class="fmm-overview fmm-overview-lead">
 
   <h4>The Challenge & Approach</h4>
 

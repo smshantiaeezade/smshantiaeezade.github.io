@@ -14,12 +14,13 @@ permalink: /publications/
 
   <p class="eyebrow">Publications</p>
 
-  <h1>
-    Peer-reviewed research & proceedings
+  <<h1>
+    Publications & proceedings
   </h1>
 
   <p class="page-lead">
-    Publications in machining dynamics, adaptive manufacturing, precision mechatronics, and control systems. Formal author-name spellings are preserved in each citation.
+    Published work in machining dynamics, manufacturing process control,
+    precision mechatronics, and control systems.
   </p>
 
 </header>

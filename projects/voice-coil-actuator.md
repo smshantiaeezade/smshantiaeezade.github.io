@@ -15,7 +15,7 @@ permalink: /projects/voice-coil-actuator/
            class="project-card project-featured vca-project">
 
 
-  <h3>Planar Voice-Coil Actuator: Precision Positioning & Friction Modeling</h3>
+  <h1>Planar Voice-Coil Actuator: Precision Positioning & Friction Modeling</h1>
 
   <div class="project-meta">
     B.Sc. Thesis · System Identification · Precision Motion Control · Embedded Control · Friction Modeling
@@ -39,7 +39,7 @@ permalink: /projects/voice-coil-actuator/
 
 </div>
 
-<section class="vca-overview">
+<section class="vca-overview vca-overview-lead">
 
   <h4>The Challenge & Approach</h4>
 
@@ -59,26 +59,49 @@ permalink: /projects/voice-coil-actuator/
 
 
 
-      <!-- Physical setup -->
+<!-- =====================================================
+     EXPERIMENTAL PLATFORM & CONSTANT-VELOCITY TEST
+     ===================================================== -->
 
-      <figure class="vca-media-item vca-setup-media">
+<section class="vca-lead-section">
 
-        <a
-          href="/assets/images/projects/voice-coil-actuator/vca-setup.png"
-          target="_blank"
-          rel="noopener noreferrer">
+  <h3>Experimental Platform &amp; Constant-Velocity Test</h3>
 
-          <img
-            src="/assets/images/projects/voice-coil-actuator/vca-setup.png"
-            alt="Planar voice-coil actuator experimental setup">
+  <div class="vca-media-row">
 
-        </a>
+    <figure class="project-media vca-media-item">
+      <a
+        href="/assets/images/projects/voice-coil-actuator/vca-setup.png"
+        target="_blank"
+        rel="noopener noreferrer">
+        <img
+          src="/assets/images/projects/voice-coil-actuator/vca-setup.png"
+          alt="Planar voice-coil actuator platform mounted on an optical breadboard">
+      </a>
+      <figcaption>
+        Experimental planar voice-coil actuator platform used for system
+        identification, embedded control, and precision-positioning experiments.
+        Click to enlarge.
+      </figcaption>
+    </figure>
 
-        <figcaption>
-          Planar voice-coil actuator experimental platform used for positioning and control experiments. Click to enlarge.
-        </figcaption>
+    <figure class="project-media vca-media-item">
+      <video controls preload="metadata" playsinline>
+        <source
+          src="/assets/videos/projects/voice-coil-actuator/VCA_50ums_with_plot.mp4"
+          type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <figcaption>
+        Constant-velocity response to a 50 &micro;m/s velocity input. The dial-gauge
+        reading changes at an approximately constant rate, providing a direct visual
+        indication of the actuator motion.
+      </figcaption>
+    </figure>
 
-      </figure>
+  </div>
+
+</section>
 
 
   <!-- =====================================================
@@ -131,15 +154,18 @@ permalink: /projects/voice-coil-actuator/
       <div class="vca-impact-box">
 
         <div class="vca-impact-label">
-          Control Performance
+          Quantitative Results
         </div>
 
         <div class="vca-impact-main">
-          <strong>near-zero steady-state error · 0% overshoot · &lt;0.5 s settling time</strong>
+          <strong>
+            90.75% model agreement · 1 kHz embedded control ·
+            0% overshoot · &lt;0.5 s settling time
+          </strong>
         </div>
 
         <p>
-          Experimental positioning tests achieved fast closed-loop motion with near-zero steady-state error.
+          Experimental identification and closed-loop positioning tests also achieved near-zero steady-state error.
         </p>
 
       </div>
@@ -237,23 +263,16 @@ permalink: /projects/voice-coil-actuator/
     <h4>Skills & Tools</h4>
 
     <div class="tag-list">
-
       <span>MATLAB</span>
       <span>Simulink</span>
       <span>STM32</span>
       <span>Embedded Control</span>
       <span>System Identification</span>
-      <span>Digital Control</span>
       <span>Precision Positioning</span>
-      <span>Voice-Coil Actuation</span>
       <span>Magnetic Encoder</span>
       <span>Sensor Integration</span>
-      <span>Experimental Modeling</span>
       <span>Friction Modeling</span>
-      <span>Stribeck Friction</span>
-      <span>Generalized Maxwell-Slip Model</span>
       <span>Experimental Validation</span>
-
     </div>
 
   </section>

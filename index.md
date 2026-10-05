@@ -23,18 +23,17 @@ image: /assets/images/profile.jpeg
         Seyed Mahmood Shantiaeezade
       </h1>
 
-      <p class="home-hero-role">
-        Mechatronics, control systems, precision engineering, and advanced manufacturing
-      </p>
+     <p class="home-hero-role">
+      Controls, dynamics, system identification, and precision mechatronics
+    </p>
 
-      <p class="home-hero-lead">
-        I develop and experimentally validate control methods for precision mechatronic and manufacturing systems using dynamic modeling, system identification, real-time control, and hardware experiments.
-      </p>
+    <p class="home-hero-lead">
+      I characterize physical systems, build and validate dynamic models, design control and adaptation algorithms, and implement them on real electromechanical and manufacturing systems.
+    </p>
 
-      <p class="home-hero-context">
-        Graduate Research Assistant in the Manufacturing Process Control Laboratory, with research spanning precision motion, machining dynamics, vibration control, adaptive control, and experimental mechatronic systems.
-      </p>
-
+    <p class="home-hero-context">
+      Ph.D. student and Graduate Research Assistant in the Manufacturing Process Control Laboratory at Oregon State University, with work spanning precision motion, machining dynamics, vibration control, and experimental mechatronics.
+    </p>
       <div class="hero-actions">
 
         <a class="button button-primary"
@@ -98,11 +97,50 @@ image: /assets/images/profile.jpeg
 
     <div class="selected-work-grid">
 
+    <!-- FMM -->
+
+      <article class="work-preview">
+
+        <a class="work-preview-media work-preview-media-technical"
+           href="{{ '/projects/feed-modulated-milling/' | relative_url }}">
+
+          <img
+            src="{{ '/assets/images/projects/feed-modulated-milling/fmm-cirp-stability.png' | relative_url }}"
+            alt="Feed Modulated Milling chatter-stability results"
+            loading="lazy">
+
+        </a>
+
+        <div class="work-preview-body">
+
+          <p class="work-kicker">
+            Machining dynamics · Chatter mitigation · Adaptive control
+          </p>
+
+          <h3>
+            <a href="{{ '/projects/feed-modulated-milling/' | relative_url }}">
+              Feed Modulated Milling (FMM)
+            </a>
+          </h3>
+
+          <p>
+            M.Sc. thesis research on spindle-synchronized micro feed motions that modify cutting-edge engagement and regenerative dynamics. The work combines process mechanics, chatter-stability prediction, adaptive parameter tuning, feed-drive implementation, and experimental validation, with up to ~3× higher milling productivity potential.
+          </p>
+
+          <a class="text-link"
+             href="{{ '/projects/feed-modulated-milling/' | relative_url }}">
+            View project →
+          </a>
+
+        </div>
+
+      </article>
+
       <!-- ASPE -->
 
       <article class="work-preview">
 
-        <a class="work-preview-media"
+        <a class="work-preview-media work-preview-media-technical"
            href="{{ '/projects/aspe-student-challenge/' | relative_url }}">
 
           <img
@@ -138,51 +176,11 @@ image: /assets/images/profile.jpeg
       </article>
 
 
-      <!-- FMM -->
-
-      <article class="work-preview">
-
-        <a class="work-preview-media"
-           href="{{ '/projects/feed-modulated-milling/' | relative_url }}">
-
-          <img
-            src="{{ '/assets/images/projects/feed-modulated-milling/fmm-cirp-stability.png' | relative_url }}"
-            alt="Feed Modulated Milling chatter-stability results"
-            loading="lazy">
-
-        </a>
-
-        <div class="work-preview-body">
-
-          <p class="work-kicker">
-            Machining dynamics · Chatter mitigation · Adaptive control
-          </p>
-
-          <h3>
-            <a href="{{ '/projects/feed-modulated-milling/' | relative_url }}">
-              Feed Modulated Milling (FMM)
-            </a>
-          </h3>
-
-          <p>
-            M.Sc. thesis research on spindle-synchronized micro feed motions that modify cutting-edge engagement and regenerative dynamics. The work combines process mechanics, chatter-stability prediction, adaptive parameter tuning, feed-drive implementation, and experimental validation, with up to ~3× higher milling productivity potential.
-          </p>
-
-          <a class="text-link"
-             href="{{ '/projects/feed-modulated-milling/' | relative_url }}">
-            View project →
-          </a>
-
-        </div>
-
-      </article>
-
-
       <!-- VCA -->
 
       <article class="work-preview">
 
-        <a class="work-preview-media"
+        <a class="work-preview-media work-preview-media-photo"
            href="{{ '/projects/voice-coil-actuator/' | relative_url }}">
 
           <img

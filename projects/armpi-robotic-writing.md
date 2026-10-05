@@ -13,7 +13,7 @@ permalink: /projects/armpi-robotic-writing/
 
   <article class="project-card armpi-project">
 
-    <h3>ArmPi Robotic Writing: Trajectory Generation & Experimental Implementation</h3>
+    <h1>ArmPi Robotic Writing: Trajectory Generation & Experimental Implementation</h1>
 
     <div class="project-meta">
       Course Project · Robotics · Trajectory Generation · Raspberry Pi
@@ -25,17 +25,11 @@ permalink: /projects/armpi-robotic-writing/
       <h4>The Project</h4>
 
       <p>
-        This project developed and experimentally implemented a robotic writing
-        system using an ArmPi robot. Letter trajectories were generated in MATLAB
-        and executed through a pen-up/pen-down waypoint sequence, while writing
-        height, motion timing, and the physical pen setup were tuned experimentally.
-      </p>
-
-      <p>
-        A Raspberry Pi was used as part of the robot-control platform, with Python
-        used for motion execution and experimental tuning. The final system
-        successfully wrote “OSU” on paper despite practical limitations associated
-        with marker stability, robot vibration, and contact with the writing surface.
+        This project implemented a robotic writing system using an ArmPi platform,
+        MATLAB-generated letter trajectories, and Raspberry Pi/Python motion execution.
+        Experimental work focused on marker mounting, writing-height tuning, waypoint
+        execution, and reducing vibration and contact-related errors; the final system
+        successfully wrote “OSU” on paper.
       </p>
 
     </section>
@@ -259,45 +253,16 @@ permalink: /projects/armpi-robotic-writing/
 
 
 
-  <div class="armpi-motion-layout">
+  <div class="armpi-stage-text">
 
-    <div class="armpi-motion-sequence">
+  <p>
+    The robot moved above the initial waypoint, lowered the marker to the calibrated
+    writing height, and followed each letter as a continuous stroke. The marker was
+    lifted between letters to prevent unwanted marks before the robot moved to the
+    next starting waypoint.
+  </p>
 
-      <div>Move to first waypoint</div>
-      <span>↓</span>
-
-      <div>Pen down</div>
-      <span>↓</span>
-
-      <div class="armpi-motion-active">
-        Follow stroke waypoints
-      </div>
-      <span>↓</span>
-
-      <div>Pen up</div>
-      <span>↓</span>
-
-      <div>Move to next letter</div>
-
-    </div>
-
-
-    <div class="armpi-stage-text">
-
-      <p>
-        The robot first moved above the initial waypoint, lowered the marker to the
-        calibrated writing height, and followed the stroke waypoints. After each
-        letter, the marker was lifted before moving to the start of the next letter
-        to avoid unwanted marks.
-      </p>
-
-      <p>
-        After completing the full word, the robot returned to its home position.
-      </p>
-
-    </div>
-
-  </div>
+</div>
 
 </section>
 

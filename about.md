@@ -91,7 +91,8 @@ permalink: /about/
       <h3>Feedback, adaptive & learning-based control</h3>
 
       <p>
-        Feedback control, adaptive control, iterative-learning concepts, optimization-based control, and real-time implementation.
+        Feedback control, adaptive parameter tuning, optimization-based methods,
+        and real-time implementation on physical systems.
       </p>
 
     </article>

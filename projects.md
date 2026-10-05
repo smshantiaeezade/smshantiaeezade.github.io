@@ -20,6 +20,48 @@ permalink: /projects/
 
 <section class="featured-project-index">
 
+<!-- FMM -->
+
+  <a class="project-index-card"
+     href="{{ '/projects/feed-modulated-milling/' | relative_url }}">
+
+    <div class="project-index-image project-index-image-technical">
+
+      <img
+        src="{{ '/assets/images/projects/feed-modulated-milling/fmm-cirp-stability.png' | relative_url }}"
+        alt="Feed Modulated Milling chatter-stability results">
+
+    </div>
+
+    <div class="project-index-content">
+
+      <p class="project-index-kicker">
+        M.Sc. Thesis Research · Machining Dynamics · Chatter Mitigation · Adaptive control
+      </p>
+
+      <div class="project-index-title">
+
+        <h2>
+          Feed Modulated Milling (FMM)
+        </h2>
+
+        <span aria-hidden="true">→</span>
+
+      </div>
+
+      <p class="project-index-summary">
+        Developed a spindle-synchronized feed-modulation approach for modifying cutting-edge engagement and regenerative dynamics using existing machine-tool feed drives. The work combines process mechanics, stability prediction, adaptive control, real-time implementation, and experimental validation.
+      </p>
+
+      <p class="project-index-evidence">
+        <strong>Result:</strong> up to ~3× higher milling productivity potential
+      </p>
+
+    </div>
+
+  </a>
+
+
   <!-- ASPE -->
 
   <a class="project-index-card"
@@ -51,45 +93,11 @@ permalink: /projects/
       </div>
 
       <p class="project-index-summary">
-        Developed and experimentally validated the motion-control strategy for a precision record-manufacturing system, including stage characterization, feedback control, trajectory filtering, gain scheduling, and real-time LabVIEW implementation. Team OSU won 1st place in the 2025 ASPE Student Challenge.
+        Developed and experimentally validated the motion-control strategy for a precision record-manufacturing system, including stage characterization, feedback control, trajectory filtering, gain scheduling, and real-time LabVIEW implementation.
       </p>
 
-    </div>
-
-  </a>
-
-
-  <!-- FMM -->
-
-  <a class="project-index-card"
-     href="{{ '/projects/feed-modulated-milling/' | relative_url }}">
-
-    <div class="project-index-image project-index-image-technical">
-
-      <img
-        src="{{ '/assets/images/projects/feed-modulated-milling/fmm-cirp-stability.png' | relative_url }}"
-        alt="Feed Modulated Milling chatter-stability results">
-
-    </div>
-
-    <div class="project-index-content">
-
-      <p class="project-index-kicker">
-        Machining dynamics · Chatter mitigation · Adaptive control
-      </p>
-
-      <div class="project-index-title">
-
-        <h2>
-          Feed Modulated Milling (FMM)
-        </h2>
-
-        <span aria-hidden="true">→</span>
-
-      </div>
-
-      <p class="project-index-summary">
-        Developed a spindle-synchronized feed-modulation approach for modifying cutting-edge engagement and regenerative dynamics using existing machine-tool feed drives. The work combines process mechanics, stability prediction, adaptive control, real-time implementation, and experimental validation.
+      <p class="project-index-evidence">
+        <strong>Result:</strong> 1st place · ~1 Hz bandwidth · 17 dB gain margin · 83° phase margin
       </p>
 
     </div>
@@ -128,7 +136,11 @@ permalink: /projects/
       </div>
 
       <p class="project-index-summary">
-        Characterized and controlled a planar voice-coil actuator for precision positioning using experimental system identification, embedded control, sensing and instrumentation, and nonlinear friction modeling. The identified model achieved 90.75% agreement with experimental data.
+        Characterized and controlled a planar voice-coil actuator for precision positioning using experimental system identification, embedded control, sensing and instrumentation, and nonlinear friction modeling.
+      </p>
+
+      <p class="project-index-evidence">
+        <strong>Result:</strong> 90.75% model agreement · 1 kHz embedded control · 0% overshoot · &lt;0.5 s settling time
       </p>
 
     </div>
@@ -222,7 +234,7 @@ permalink: /projects/
   <h3>Mechanical Robot Gripper Redesign</h3>
 
   <p>
-    Redesigned and analyzed a mechanical robot-gripper concept to improve force transmission and mechanical advantage. Siemens NX simulations were developed to evaluate linkage motion, end-effector kinematics, velocity, acceleration, and the effects of incorporating a two-stage gear train.
+    Contributed to the redesign and analysis of a mechanical robot-gripper concept to improve force transmission and mechanical advantage.
   </p>
 
   <div class="tag-list">

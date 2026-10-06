@@ -305,7 +305,7 @@ permalink: /projects/
   <h3>Mechanical Robot Gripper Redesign</h3>
 
   <p>
-    Contributed to the redesign and analysis of a mechanical robot-gripper concept to improve force transmission and mechanical advantage.
+    Redesigned and analyzed a mechanical robot-gripper mechanism based on the Robot Gripper educational project by CAD Video Tutor. The baseline geometry was independently modeled in Siemens NX from the provided dimensional drawings, after which selected linkage dimensions were modified and a two-stage gear train was incorporated to improve force transmission and mechanical advantage. Kinematic simulations were performed to evaluate linkage motion, end-effector displacement, velocity, and acceleration.
   </p>
 
   <div class="tag-list">

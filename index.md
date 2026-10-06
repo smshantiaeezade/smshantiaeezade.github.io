@@ -38,7 +38,7 @@ image: /assets/images/profile.jpeg
 
         <a class="button button-primary"
            href="{{ '/projects/' | relative_url }}">
-          View selected work
+          Selected Work
         </a>
 
         <a class="button button-secondary"

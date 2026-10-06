@@ -281,47 +281,6 @@ permalink: /projects/
 
     <div class="project-grid">
 
-      <article class="project-small-card">
-
-  <video
-    class="small-project-video"
-    controls
-    preload="metadata"
-    playsinline
-    muted>
-
-    <source
-      src="/assets/videos/projects/robot-gripper/gripper-simulation.mp4"
-      type="video/mp4">
-
-    Your browser does not support the video tag.
-
-  </video>
-
-  <div class="small-project-type">
-    Team Course Project
-  </div>
-
-  <h3>Mechanical Robot Gripper Redesign</h3>
-
-  <p>
-    Redesigned and analyzed a mechanical robot-gripper mechanism based on the Robot Gripper educational project by CAD Video Tutor. The baseline geometry was independently modeled in Siemens NX from the provided dimensional drawings, after which selected linkage dimensions were modified and a two-stage gear train was incorporated to improve force transmission and mechanical advantage. Kinematic simulations were performed to evaluate linkage motion, end-effector displacement, velocity, and acceleration.
-  </p>
-
-  <div class="tag-list">
-    <span>Siemens NX</span>
-    <span>Mechanism Design</span>
-    <span>Kinematic Analysis</span>
-    <span>Mechanical Advantage</span>
-    <span>Gear Trains</span>
-  </div>
-
-</article>
-
-
-
-
-
     <article class="project-small-card">
 
   <a

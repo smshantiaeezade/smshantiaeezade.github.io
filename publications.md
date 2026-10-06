@@ -12,10 +12,10 @@ permalink: /publications/
 
 <header class="page-intro publications-intro">
 
-  <p class="eyebrow">Publications</p>
+  <p class="eyebrow" Publications</p>
 
   <<h1>
-    Publications & proceedings
+    Publications & Proceedings
   </h1>
 
   <p class="page-lead">
